@@ -6,3 +6,10 @@ def sumList(list):
         sum += i
     return sum
 
+def multiplyList(list):
+    product = 1
+    for i in list:
+        product *= i
+    return product
+
+
