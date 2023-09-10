@@ -14,10 +14,6 @@ def multiplyList(list):
         product *= i
     return product
 
-def reverseList(list):
-    return list[::-1]
-
-# this is the main function that takes user input and calls the other functions
 def main():
     list = []
     num_elements = input("Enter number of elements in list: ")
