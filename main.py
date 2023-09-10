@@ -24,5 +24,6 @@ def main():
     
     print("Sum of list: ", sumList(list))
     print("Product of list: ", multiplyList(list))
+    print("Reversed list: ", reverseList(list))
 
 main()
