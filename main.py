@@ -12,6 +12,9 @@ def multiplyList(list):
         product *= i
     return product
 
+def reverseList(list):
+    return list[::-1]
+
 def main():
     list = []
     num_elements = input("Enter number of elements in list: ")
@@ -21,5 +24,6 @@ def main():
     
     print("Sum of list: ", sumList(list))
     print("Product of list: ", multiplyList(list))
+    print("Reversed list: ", reverseList(list))
 
 main()
